@@ -27,6 +27,7 @@ REST APIs:
 OpenWeather API
  — weather data
 
+
 Rest Countries API
  — country and currency information
 
@@ -52,37 +53,60 @@ http://localhost:3000
 1️⃣ OpenWeather API
 
 Fetches real-time weather data for the city
+
 Server returns:
+
 temperature
+
 feels_like
+
 description
+
 coordinates
+
 wind_speed
+
 country_code
+
 rain_volume_last_3h
+
 
 2️⃣ Rest Countries API
 
 Fetches country information using country code (ISO)
+
 Server returns currency details:
+
 code — currency code (e.g., GBP)
+
 name — currency name (e.g., British pound)
+
 symbol — currency symbol (e.g., £)
+
 
 # 🌐 Frontend
 
 Responsive design using CSS
+
 Displays:
+
 Weather (temperature, description, feels-like, wind speed, rain)
+
 Country (ISO code)
+
 Currency (code, name, symbol)
+
 
 # 💡 Features & Design
 
 All third-party API calls are server-side, keeping API keys hidden
+
 Simple, clean, and responsive UI
+
 Error handling:
+
 Invalid city → displays user-friendly message
+
 Server errors → returns JSON with details
 
 <img width="1918" height="955" alt="Снимок экрана 2025-12-28 161053" src="https://github.com/user-attachments/assets/ac9feb47-1353-44a3-b465-515581ab8b7c" />
@@ -91,4 +115,5 @@ Server errors → returns JSON with details
 # 📚 References
 
 OpenWeather API Documentation
+
 Rest Countries API Documentation
