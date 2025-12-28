@@ -1,6 +1,7 @@
 # web2-2
-#Weather & Currency App
-#📌 Project Description
+# Weather & Currency App
+
+# 📌 Project Description
 
 This web application displays weather and currency information for a selected city.
 All API calls are handled on the server side to provide a clean and secure user experience.
@@ -11,7 +12,7 @@ Server fetches weather and country information
 
 Frontend displays the data in a responsive and user-friendly interface
 
-#🛠 Technologies
+# 🛠 Technologies
 
 Node.js
 
@@ -47,19 +48,7 @@ http://localhost:3000
 
 5.Enter a city and click Get Weather
 
-#🧩 Project Structure
-project-folder/
-│
-├─ server.js          # Server-side logic
-├─ package.json       # Project dependencies
-├─ .env               # API key
-└─ public/
-   ├─ index.html      # Frontend
-   ├─ style.css       # Styles
-   └─ script.js       # JS to interact with server
-
-
-#🔹 APIs Used
+# 🔹 APIs Used
 1️⃣ OpenWeather API
 
 Fetches real-time weather data for the city
@@ -80,7 +69,7 @@ code — currency code (e.g., GBP)
 name — currency name (e.g., British pound)
 symbol — currency symbol (e.g., £)
 
-#🌐 Frontend
+# 🌐 Frontend
 
 Responsive design using CSS
 Displays:
@@ -88,7 +77,7 @@ Weather (temperature, description, feels-like, wind speed, rain)
 Country (ISO code)
 Currency (code, name, symbol)
 
-#💡 Features & Design
+# 💡 Features & Design
 
 All third-party API calls are server-side, keeping API keys hidden
 Simple, clean, and responsive UI
@@ -99,7 +88,7 @@ Server errors → returns JSON with details
 <img width="1918" height="955" alt="Снимок экрана 2025-12-28 161053" src="https://github.com/user-attachments/assets/ac9feb47-1353-44a3-b465-515581ab8b7c" />
 
 
-#📚 References
+# 📚 References
 
 OpenWeather API Documentation
 Rest Countries API Documentation
